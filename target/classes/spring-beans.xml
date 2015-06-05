@@ -17,9 +17,9 @@
 		<property name="age" value="26" />
 		<property name="biens">
 			<list>
-				<value>150</value>
-				<value>13</value>
-				<value>0015</value>
+				<value type="int">150</value>
+				<value type="int">103</value>
+				<value type="int">0015</value>
 			</list>
 		</property>
 	</bean>
