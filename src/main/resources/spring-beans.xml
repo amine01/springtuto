@@ -10,4 +10,17 @@
 		<constructor-arg value="Essadkaoui" />
 		<constructor-arg value="20" type="int" />
 	</bean>
+	
+	<bean id="personne2" class="com.essamine.classes.Personne">
+		<property name="nom" value="ElJilali" />
+		<property name="fonction" value="instituteur" />
+		<property name="age" value="26" />
+		<property name="biens">
+			<list>
+				<value>150</value>
+				<value>13</value>
+				<value>0015</value>
+			</list>
+		</property>
+	</bean>
 </beans>
